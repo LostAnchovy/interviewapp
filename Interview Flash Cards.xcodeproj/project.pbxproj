@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C4358A5D2037A85E00CFE903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4358A5C2037A85E00CFE903 /* AppDelegate.swift */; };
-		C4358A5F2037A85E00CFE903 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4358A5E2037A85E00CFE903 /* FirstViewController.swift */; };
-		C4358A612037A85E00CFE903 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4358A602037A85E00CFE903 /* SecondViewController.swift */; };
+		C4358A5F2037A85E00CFE903 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4358A5E2037A85E00CFE903 /* GeneralViewController.swift */; };
+		C4358A612037A85E00CFE903 /* TechnicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4358A602037A85E00CFE903 /* TechnicalViewController.swift */; };
 		C4358A642037A85E00CFE903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4358A622037A85E00CFE903 /* Main.storyboard */; };
 		C4358A662037A85E00CFE903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4358A652037A85E00CFE903 /* Assets.xcassets */; };
 		C4358A692037A85E00CFE903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4358A672037A85E00CFE903 /* LaunchScreen.storyboard */; };
 		C4358A742037A85E00CFE903 /* Interview_Flash_CardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4358A732037A85E00CFE903 /* Interview_Flash_CardsTests.swift */; };
 		C4358A7F2037A85E00CFE903 /* Interview_Flash_CardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4358A7E2037A85E00CFE903 /* Interview_Flash_CardsUITests.swift */; };
+		C4358A8D2037A9B100CFE903 /* BehavioralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4358A8C2037A9B100CFE903 /* BehavioralViewController.swift */; };
+		C444A60C2037CAB90048DEA3 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C444A60B2037CAB90048DEA3 /* Raleway-Light.ttf */; };
+		C444A60D2037CB860048DEA3 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C444A6092037CAA80048DEA3 /* Raleway-Regular.ttf */; };
+		C444A60E2037CBA70048DEA3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4358A6A2037A85E00CFE903 /* Info.plist */; };
+		C444A6102037CCCD0048DEA3 /* OpenSans-CondBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C444A60F2037CCCD0048DEA3 /* OpenSans-CondBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +42,8 @@
 /* Begin PBXFileReference section */
 		C4358A592037A85E00CFE903 /* Interview Flash Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interview Flash Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4358A5C2037A85E00CFE903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4358A5E2037A85E00CFE903 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		C4358A602037A85E00CFE903 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C4358A5E2037A85E00CFE903 /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		C4358A602037A85E00CFE903 /* TechnicalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalViewController.swift; sourceTree = "<group>"; };
 		C4358A632037A85E00CFE903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4358A652037A85E00CFE903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4358A682037A85E00CFE903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,10 @@
 		C4358A7A2037A85E00CFE903 /* Interview Flash CardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interview Flash CardsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4358A7E2037A85E00CFE903 /* Interview_Flash_CardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interview_Flash_CardsUITests.swift; sourceTree = "<group>"; };
 		C4358A802037A85E00CFE903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4358A8C2037A9B100CFE903 /* BehavioralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehavioralViewController.swift; sourceTree = "<group>"; };
+		C444A6092037CAA80048DEA3 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		C444A60B2037CAB90048DEA3 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		C444A60F2037CCCD0048DEA3 /* OpenSans-CondBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-CondBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +109,13 @@
 			isa = PBXGroup;
 			children = (
 				C4358A5C2037A85E00CFE903 /* AppDelegate.swift */,
-				C4358A5E2037A85E00CFE903 /* FirstViewController.swift */,
-				C4358A602037A85E00CFE903 /* SecondViewController.swift */,
+				C4358A5E2037A85E00CFE903 /* GeneralViewController.swift */,
+				C4358A602037A85E00CFE903 /* TechnicalViewController.swift */,
+				C4358A8C2037A9B100CFE903 /* BehavioralViewController.swift */,
 				C4358A622037A85E00CFE903 /* Main.storyboard */,
 				C4358A652037A85E00CFE903 /* Assets.xcassets */,
 				C4358A672037A85E00CFE903 /* LaunchScreen.storyboard */,
+				C444A6082037CA060048DEA3 /* Fonts */,
 				C4358A6A2037A85E00CFE903 /* Info.plist */,
 			);
 			path = "Interview Flash Cards";
@@ -126,6 +137,16 @@
 				C4358A802037A85E00CFE903 /* Info.plist */,
 			);
 			path = "Interview Flash CardsUITests";
+			sourceTree = "<group>";
+		};
+		C444A6082037CA060048DEA3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C444A60B2037CAB90048DEA3 /* Raleway-Light.ttf */,
+				C444A60F2037CCCD0048DEA3 /* OpenSans-CondBold.ttf */,
+				C444A6092037CAA80048DEA3 /* Raleway-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4358A692037A85E00CFE903 /* LaunchScreen.storyboard in Resources */,
+				C444A60D2037CB860048DEA3 /* Raleway-Regular.ttf in Resources */,
+				C444A60E2037CBA70048DEA3 /* Info.plist in Resources */,
+				C444A60C2037CAB90048DEA3 /* Raleway-Light.ttf in Resources */,
+				C444A6102037CCCD0048DEA3 /* OpenSans-CondBold.ttf in Resources */,
 				C4358A662037A85E00CFE903 /* Assets.xcassets in Resources */,
 				C4358A642037A85E00CFE903 /* Main.storyboard in Resources */,
 			);
@@ -262,9 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4358A612037A85E00CFE903 /* SecondViewController.swift in Sources */,
+				C4358A612037A85E00CFE903 /* TechnicalViewController.swift in Sources */,
 				C4358A5D2037A85E00CFE903 /* AppDelegate.swift in Sources */,
-				C4358A5F2037A85E00CFE903 /* FirstViewController.swift in Sources */,
+				C4358A8D2037A9B100CFE903 /* BehavioralViewController.swift in Sources */,
+				C4358A5F2037A85E00CFE903 /* GeneralViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
